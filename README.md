@@ -6,7 +6,7 @@ Jeopardy! is an American television game show created by Merv Griffin. The show 
 
 ## Dataset
 
-The dataset can be downloaded here : https://www.reddit. com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/ 
+The dataset can be downloaded here : [an_awesome_website_link]: https://www.reddit. com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/ 
 
 According to j-archive, the total number of Jeopardy! questions over the show's span (as of this post) is 252,583 - so this is approximately 83% of them. In particular, around the last two years of game play are missing.
 
