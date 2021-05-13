@@ -4,6 +4,8 @@ Jeopardy! is a game show in which contestants compete to answer questions the fa
 
 Jeopardy! is an American television game show created by Merv Griffin. The show features a quiz competition in which contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in the form of questions. The original daytime version debuted on NBC on March 30, 1964, and aired until January 3, 1975. A weekly nighttime syndicated edition aired from September 1974 to September 1975, and a revival, The All-New Jeopardy!, ran on NBC from October 1978 to March 1979. The version airing as of 2021
 
+This project is for MSDS626 - Case Studies in Data Science course at MS in Data Science degree at the University of San Francisco.  
+
 ## Dataset
 
 The dataset can be downloaded here : https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/ 
@@ -31,3 +33,7 @@ Note: Tiebreaker questions do happen but they're very rare (like once every 20 y
 * `show_number` : string of show number, e.g '4680'
 
 * `air_date` : the show air date in format YYYY-MM-DD
+
+## Methods
+* TfidfVectorizer + Non-Negative Matrix Factorization
+* TfidfVectorizer + Latent Dirichlet Allocation
