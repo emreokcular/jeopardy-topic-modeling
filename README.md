@@ -1,10 +1,8 @@
 # jeopardy-topic-modeling
 
-Jeopardy! is a game show in which contestants compete to answer questions the fastest against one another. Questions are placed on a game board under themes and monetary value. The theme at the top of the column in the game board represents the context of the question. The value (represented by rows) generally correlates with difficulty. In this project, I will be using topic modeling to explore trends in the Jeopardy! gameshow.
+Jeopardy! is an American television game show created by Merv Griffin. The show features a quiz competition in which contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in the form of questions. Questions are placed on a game board under themes and monetary value. The theme at the top of the column in the game board represents the context of the question. The value (represented by rows) generally correlates with difficulty. In this project, I will be using topic modeling to explore trends in the Jeopardy! gameshow.
 
-Jeopardy! is an American television game show created by Merv Griffin. The show features a quiz competition in which contestants are presented with general knowledge clues in the form of answers, and must phrase their responses in the form of questions. The original daytime version debuted on NBC on March 30, 1964, and aired until January 3, 1975. A weekly nighttime syndicated edition aired from September 1974 to September 1975, and a revival, The All-New Jeopardy!, ran on NBC from October 1978 to March 1979. The version airing as of 2021
-
-This project is for MSDS626 - Case Studies in Data Science course at MS in Data Science degree at the University of San Francisco.  
+This project is a team work for MSDS626 - Case Studies in Data Science course at MS in Data Science degree at the University of San Francisco.  
 
 ## Dataset
 
@@ -34,6 +32,10 @@ Note: Tiebreaker questions do happen but they're very rare (like once every 20 y
 
 * `air_date` : the show air date in format YYYY-MM-DD
 
-## Methods
-* TfidfVectorizer + Non-Negative Matrix Factorization
-* TfidfVectorizer + Latent Dirichlet Allocation
+#### In this project, we analyze the Jeopardy! questions in terms of:
+
+* Game Dynamics: We use TfidfVectorizer + Non-Negative Matrix Factorization  to evaluate how topics of the game have changed over years. In addition, Latent Dirichlet Allocation is used to understand how the themes of different rounds change from year to year.
+
+* Question Difficulty: Using the price for each question, we compare the relative difficulty of questions across time. We investigate the dynamics of the questions and analyze what topics were considered easy and what were considered difficult over time.
+
+Contributors: Anawat Pupwanphen, Efrem Ghebreab, Emre Okcular, Suren Gunturu
